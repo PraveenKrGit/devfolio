@@ -26,7 +26,7 @@ export const Projects = () => {
                 src={project.image}
                 width={150}
                 height={150}
-                className="mb-6 rounded transform hover:scale-110 transition-transform duration-300 cursor-pointer"
+                className="w-3/4 h-[150px] lg:w-[150px] object-cover mb-6 rounded transform hover:scale-110 transition-transform duration-300 cursor-pointer"
                 alt="projectimg"
               />
             </motion.div>
